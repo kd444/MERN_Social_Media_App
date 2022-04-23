@@ -13,6 +13,7 @@ const App = () => {
   const dispatch = useDispatch();
   const classes = useStyles();
 
+  // dispatch het post action
   useEffect(() => {
     dispatch(getPosts());
   }, [currentId, dispatch]);
